@@ -1,0 +1,6 @@
+rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
+
+rofi.combi-modi:    window,run,ssh
+rofi.font:          tamzen 12
+rofi.modi:          combi
+rofi.columns:		3

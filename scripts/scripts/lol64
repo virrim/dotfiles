@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export WINEPREFIX=~/.LoL64
+
+wine "C:/Riot Games/League of Legends/LeagueClient.exe"

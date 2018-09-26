@@ -1,0 +1,8 @@
+A=$(printf ' %.s' {1..16})hello
+while :; do
+printf "%s \r" "${A:((P++)):16}"
+if [ $P == ${#A} ];then
+ P=0
+fi
+sleep 0.1
+done
