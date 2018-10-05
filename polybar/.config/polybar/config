@@ -52,7 +52,7 @@ font-4 = "Font Awesome 5 Brands:style=Regular:size=10;3"
 
 modules-left = bspwm music
 modules-center = xwindow
-modules-right = pulseaudio dunst memory cpu eth battery date
+modules-right = pulseaudio dunst memory cpu eth wlan battery date
 
 border-size = 2
 border-color = ${xrdb:color9:#FF000000}
@@ -227,7 +227,7 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wlp3s0
+interface = wlp2s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
