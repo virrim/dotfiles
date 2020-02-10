@@ -35,7 +35,7 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a Steam desktop='^8' follow=no split_dir=right
 bspc rule -a Dota2 state=fullscreen follow=no
-bspc rule -a Discord desktop='^7'
+bspc rule -a discord desktop='^7'
 
 
 

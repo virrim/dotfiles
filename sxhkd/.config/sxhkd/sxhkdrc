@@ -6,9 +6,12 @@
 super + Return
 	rofi -show
 
+super + shift + Return
+	rofi -show drun -run-command 'gksudo \{cmd\}'
+
 # program launcher
 super + y
-	urxvt
+	sakura
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -16,7 +19,7 @@ super + Escape
 
 # lock screen
 super + l
-	glitchlock
+	sh ~/scripts/glitchlock
 
 #
 # Media keys

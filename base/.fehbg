@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-fill '/home/herb/Pictures/1515367119707.png' 
+feh --no-fehbg --bg-fill '/home/herb/.config/wpg/wallpapers/1606667.jpg' 
