@@ -24,6 +24,11 @@ super + l
 #
 # Media keys
 #
+XF86MonBrightnessUp
+	light -A 5
+
+XF86MonBrightnessDown
+	light -U 5
 
 XF86AudioRaiseVolume
 	amixer -D pulse sset Master 2%+
